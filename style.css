@@ -8,7 +8,8 @@ body {
   margin: 0;
   min-height: 100vh;
   font-family: Roboto Mono, sans-serif;
-  background: whitesmoke;
+  background-color: #e8e8ea;
+  background-image: url("data:image/svg+xml,%3Csvg width='84' height='48' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%238e95ca' fill-opacity='0.06' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 
 h1 {
@@ -18,6 +19,12 @@ h1 {
   font-size: 40px;
   letter-spacing: 3px;
   color: #17265e;
+}
+h3 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-size: 15px;
 }
 
 /* Loader */
@@ -49,6 +56,9 @@ h1 {
 @media screen and (max-width: 600px) {
   h1 {
     font-size: 23px;
+  }
+  h3 {
+    font-size: 10px;
   }
   .image-container {
     margin: 10px;
